@@ -14,6 +14,9 @@ class WaterController < ApplicationController
     render({ :template => "aqua_views/cancer.html.erb" })
   end
 
+
+
+
   def scorpion
     @horoscope = "All continues to go well professionally, Scorpio. You're feeling physically strong and vigorous. Mentally, however, you might be a bit vague. You may be easily distracted and not as sharp as usual. This isn't a good day to start a new project. Try to concentrate on finishing old tasks and tying up loose ends. You should be ready to go again in a couple of days."
 
@@ -28,6 +31,9 @@ class WaterController < ApplicationController
     render({ :template => "aqua_views/scorpio.html.erb" })
   end
 
+
+
+  
   def fish
     @horoscope = "Business and financial success makes you happy and satisfied, Pisces. You also look forward to moving on. The downside of this flush period is that people who aren't particularly trustworthy might decide to latch onto your coattails for their own purposes. Some might even ask for loans. Be careful about the ones you assist. 
     They might not be honest with you. Don't fall for any sob stories."
